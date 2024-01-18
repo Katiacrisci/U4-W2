@@ -18,9 +18,20 @@ public class Main {
                 duplicates.add(word);
             }
         }
+        for (String dup : duplicates) {
+            if (dup.contains("sdfvs")) {
+                System.out.println("A duplicate: " + dup);
+            }
+        }
         System.out.println("elenco parole duplicate" + duplicates);
         System.out.printf("Numero di parole distinte: %d", wordSet.size());
         System.out.println(wordSet);
+
+
+
+
+
+
 
 
 
